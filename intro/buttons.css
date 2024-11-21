@@ -1,0 +1,84 @@
+  .uber{
+       background-color: black;
+       color: white;
+       border: none;
+       cursor: pointer;
+       margin-right: 15px;
+       transition: opacity 0.15s;
+       padding-top:10px;
+       padding-bottom: 10px;
+       padding-left:16px;
+       padding-right:16px;
+       vertical-align:top;
+       /* This is the button part and the next one is hover animation part */
+    }
+    .uber:hover{
+        opacity: 0.8;
+    }
+    .uber:active{
+        opacity: 0.4;
+    }
+    .amazon{
+        background-color: rgb(235, 222, 78);
+        color: black;
+        border: none;
+        border-radius: 12.5px;
+        margin-right: 15px;
+        transition: box-shadow 0.11s;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-right: 25px;
+        padding-left: 25px;
+        vertical-align: top;
+        cursor: pointer;
+        
+
+    }
+    .amazon:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.151)
+
+    }
+    .git{
+        background-color: rgb(96, 195, 119);
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        width: 90px;
+        margin-right: 15px;
+        cursor: pointer;
+
+    }
+    .boot{
+        background-color:rgb(194, 106, 194);
+        color: white;
+        font-weight: bold;
+        border: none;
+        height: 35px;
+        width: 115px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .boot2{
+        background-color: white;
+        border-color: grey;
+        font-weight: bold;
+        color: grey;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 5px;
+        height: 35px;
+        width: 115px;
+        margin-left: 10px;
+        transition: background-color 1s, color 1s;
+    }
+    .boot2:hover{
+        background-color: grey;
+        color:white;
+
+    }
+    .boot2:active{
+        opacity:0.2;
+    }
